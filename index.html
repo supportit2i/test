@@ -1,13 +1,29 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0" />
-    <title>Horloge Logwork — Europe/Paris</title>
-  </head>
-  <body>
-    <!-- Widget horloge Logwork -->
-    <script src="https://cdn.logwork.com/widget/text.js"></script>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Horloge Logwork — Europe/Paris</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.clock-widget-text {
+font-size: 2em; /* agrandir la date/heure */
+line-height: 1; /* supprime l’espace vertical en dessous */
+text-decoration: none;
+color: #000;
+}
+</style>
+</head>
+<body>
+<!-- Widget horloge Logwork -->
+<script src="https://cdn.logwork.com/widget/text.js"></script>
 <a href="https://logwork.com/clock-widget/" class="clock-widget-text" data-timezone="Europe/Paris" data-language="fr" data-textcolor="#000000" data-digitscolor="#000000">---</a>
-  </body>
+</body>
 </html>
